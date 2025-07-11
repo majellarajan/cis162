@@ -1,69 +1,67 @@
+html {
+  background: rgb(242, 232, 165);
+}
+
 body {
-  background-color: #fff5f5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-header {
-  background-color: #fac7e6;
-  color: #000000;
-  padding: 30px 0;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 3em;
-  margin: 0;
-}
-
-nav ul {
-  list-style-type: none;
-  background-color: #edaac4;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-nav ul li {
-  padding: 15px 25px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s, background-color 0.3s;
-}
-
-nav ul li a:hover {
-  background-color: #fff;
-  color: #e47fbc;
-  border-radius: 5px;
-  padding: 5px 10px;
-}
-
-section {
-  padding: 30px;
-  background-color: #ffffff;
-  width: 85%;
+  background-color: lightgoldenrodyellow;
+  margin: 0 auto;
+  width: 95%;
   max-width: 900px;
-  margin: 30px auto;
-  border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  min-width: 640px;
+  font-family: Arial;
 }
 
-footer {
-  background-color: #222;
-  color: #eee;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  margin-top: 40px;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff4ab;
 }
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ header {
+  text-align: center;
+  padding: 20px 0;
+  line-height: 2em;
+}
+
+ section#leftColumn {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffeba9;
+}
+
+section#rightColumn {
+  float: left;
+  width: 67%;
+  padding: 10px;
+  box-sizing: border-box;
+    background-color: #ffe1a9;
+}
+
+section#rightColumn img{
+  display: block;
+  width:100%;
+}
+
+ footer {
+  clear: both;
+  padding: 1em;
+  text-align: center;
+  background-color: lightyellow;
+}
+
